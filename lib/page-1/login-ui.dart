@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:myapp/homepage.dart';
 import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
@@ -50,68 +51,7 @@ class Scene extends StatelessWidget {
                     height: 58.54*fem,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          // 2CJ (1:465)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 241.59*fem, 4.1*fem),
-                          child: Text(
-                            '10:09',
-                            textAlign: TextAlign.center,
-                            style: SafeGoogleFont (
-                              'Inter',
-                              fontSize: 16*ffem,
-                              fontWeight: FontWeight.w400,
-                              height: 1.2125*ffem/fem,
-                              color: const Color(0xffd9d9d9),
-                            ),
-                          ),
-                        ),
-                        SizedBox(
-                          // autogroupwrkzx7t (KUNMewXFnMbvi5qrRQwrkz)
-                          width: 92.88*fem,
-                          height: double.infinity,
-                          child: Stack(
-                            children: [
-                              Positioned(
-                                // batterybardUv (1:466)
-                                left: 32.1066894531*fem,
-                                top: 0*fem,
-                                child: Align(
-                                  child: SizedBox(
-                                    width: 60.77*fem,
-                                    height: 58.54*fem,
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(176*fem),
-                                      child: Image.asset(
-                                        'assets/page-1/images/battery-bar.png',
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Positioned(
-                                // wifiiconUEe (1:467)
-                                left: 0*fem,
-                                top: 3.4433288574*fem,
-                                child: Align(
-                                  child: SizedBox(
-                                    width: 52.75*fem,
-                                    height: 37.88*fem,
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(168*fem),
-                                      child: Image.asset(
-                                        'assets/page-1/images/wifi-icon.png',
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ],
+                     
                     ),
                   ),
                   Container(
@@ -153,216 +93,103 @@ class Scene extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        // Container(
-                        //   // logineqG (1:456)
-                        //   margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0.02*fem, 8*fem),
-                        //   child: Text(
-                        //     'Login\n',
-                        //     textAlign: TextAlign.center,
-                        //     style: SafeGoogleFont (
-                        //       'Poppins',
-                        //       fontSize: 16*ffem,
-                        //       fontWeight: FontWeight.w700,
-                        //       height: 1.5*ffem/fem,
-                        //       color: const Color(0xff000000),
-                        //     ),
-                        //   ),
-                        // ),
-                        // Container(
-                        //   // usernameiKL (1:460)
-                        //   margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 16*fem),
-                        //   width: double.infinity,
-                        //   child: Column(
-                        //     crossAxisAlignment: CrossAxisAlignment.start,
-                        //     children: [
-                        //       SizedBox(
-                        //         // usernamedBQ (1:462)
-                        //         width: double.infinity,
-                        //         child: Text(
-                        //           'Username\n',
-                        //           textAlign: TextAlign.center,
-                        //           style: SafeGoogleFont (
-                        //             'Poppins',
-                        //             fontSize: 12*ffem,
-                        //             fontWeight: FontWeight.w500,
-                        //             height: 1.5*ffem/fem,
-                        //             color: const Color(0xff000000),
-                        //           ),
-                        //         ),
-                        //       ),
-                        //       // Container(
-                        //       //   // emailbaruuc (1:461)
-                        //       //   padding: EdgeInsets.fromLTRB(14.17*fem, 9*fem, 17.02*fem, 9*fem),
-                        //       //   width: double.infinity,
-                        //       //   decoration: BoxDecoration (
-                        //       //     border: Border.all(color: const Color(0xffe6e3e3)),
-                        //       //     color: const Color(0xfff9f9f9),
-                        //       //     borderRadius: BorderRadius.circular(20*fem),
-                        //       //     boxShadow: [
-                        //       //       BoxShadow(
-                        //       //         color: const Color(0x3f000000),
-                        //       //         offset: Offset(0*fem, 4*fem),
-                        //       //         blurRadius: 2*fem,
-                        //       //       ),
-                        //       //     ],
-                        //       //   ),
-                        //       //   child: Row(
-                        //       //     crossAxisAlignment: CrossAxisAlignment.center,
-                        //       //     children: [
-                        //       //       Container(
-                        //       //         // iconsaxlinearsearchnormal1hqU (I1:461;416:63)
-                        //       //         margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 270.43*fem, 0*fem),
-                        //       //         width: 14.17*fem,
-                        //       //         height: 14*fem,
-                        //       //         child: Image.asset(
-                        //       //           'assets/page-1/images/iconsax-linear-searchnormal1-cdY.png',
-                        //       //           width: 14.17*fem,
-                        //       //           height: 14*fem,
-                        //       //         ),
-                        //       //       ),
-                        //       //       SizedBox(
-                        //       //         // iconsaxlinearmicrophone2YLJ (I1:461;416:65)
-                        //       //         width: 10.2*fem,
-                        //       //         height: 11.67*fem,
-                        //       //         child: Image.asset(
-                        //       //           'assets/page-1/images/iconsax-linear-microphone2.png',
-                        //       //           width: 10.2*fem,
-                        //       //           height: 11.67*fem,
-                        //       //         ),
-                        //       //       ),
-                        //       //     ],
-                        //       //   ),
-                        //       // ),
-                        //     ],
-                        //   ),
-                        // ),
                         
-                        Column(
+                        Container(
+                          // usernameiKL (1:460)
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 16*fem),
+                          width: double.infinity,
+                          child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              // Container(
-                              //   // password9qt (1:459)
-                              //   margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 1*fem),
-                              //   width: double.infinity,
-                              //   child: Text(
-                              //     'Password',
-                              //     textAlign: TextAlign.center,
-                              //     style: SafeGoogleFont (
-                              //       'Poppins',
-                              //       fontSize: 12*ffem,
-                              //       fontWeight: FontWeight.w500,
-                              //       height: 1.5*ffem/fem,
-                              //       color: const Color(0xff000000),
-                              //     ),
-                              //   ),
-                              // ),
-                              // Container(
-                              //   // passwordbarEsL (1:458)
-                              //   padding: EdgeInsets.fromLTRB(14.17*fem, 9*fem, 17.02*fem, 9*fem),
-                              //   width: double.infinity,
-                              //   decoration: BoxDecoration (
-                              //     border: Border.all(color: const Color(0xffe6e3e3)),
-                              //     color: const Color(0xfff9f9f9),
-                              //     borderRadius: BorderRadius.circular(20*fem),
-                              //     boxShadow: [
-                              //       BoxShadow(
-                              //         color: const Color(0x3f000000),
-                              //         offset: Offset(0*fem, 4*fem),
-                              //         blurRadius: 2*fem,
-                              //       ),
-                              //     ],
-                              //   ),
-                              //   child: Row(
-                              //     crossAxisAlignment: CrossAxisAlignment.center,
-                              //     children: [
-                              //       Container(
-                              //         // iconsaxlinearsearchnormal145g (I1:458;416:63)
-                              //         margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 270.43*fem, 0*fem),
-                              //         width: 14.17*fem,
-                              //         height: 14*fem,
-                              //         child: Image.asset(
-                              //           'assets/page-1/images/iconsax-linear-searchnormal1.png',
-                              //           width: 14.17*fem,
-                              //           height: 14*fem,
-                              //         ),
-                              //       ),
-                              //       SizedBox(
-                              //         // iconsaxlinearmicrophone2WiN (I1:458;416:65)
-                              //         width: 10.2*fem,
-                              //         height: 11.67*fem,
-                              //         child: Image.asset(
-                              //           'assets/page-1/images/iconsax-linear-microphone2-i9x.png',
-                              //           width: 10.2*fem,
-                              //           height: 11.67*fem,
-                              //         ),
-                              //       ),
-                              //     ],
-                              //   ),
-                              // ),
+                              
+                              Container(
+                                // emailbaruuc (1:461)
+                                padding: EdgeInsets.fromLTRB(14.17*fem, 9*fem, 17.02*fem, 9*fem),
+                                width: double.infinity,
+                                
+                                child: Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                 
+                                ),
+
+                                
+                              ),
+                              //email
+                              SizedBox( 
+  height: 50,
+  child: 
+
+                               TextFormField(
+                keyboardType: TextInputType.emailAddress,
+                decoration: InputDecoration(
+                  enabledBorder: OutlineInputBorder(
+                     borderRadius: BorderRadius.circular(50.0),
+                  ),
+                  labelText: "Enter email",
+                  border: OutlineInputBorder(),
+                  prefixIcon: Icon(Icons.email),
+                ),
+              ),
+              ),
                             ],
                           ),
+                        ),
+                        const SizedBox(
+                height: 15,
+              ),
+              //password
+               SizedBox( 
+  height: 50,
+  child: 
+              TextFormField(
+                keyboardType: TextInputType.visiblePassword,
+                obscureText: true,
+                decoration: InputDecoration(
+                   enabledBorder: OutlineInputBorder(
+                     borderRadius: BorderRadius.circular(50.0),
+                  ),
+                  labelText: "Enter Password",
+                  border: OutlineInputBorder(),
+                  prefixIcon: Icon(Icons.lock),
+                  suffixIcon: Icon(Icons.remove_red_eye),
+                ),
+              ),),
+                        
+                       
                         
                       ],
                     ),
                   ),
+                 
+                  //login button
                   Container(
-                    // loginbuttoncFc (1:451)
-                    margin: EdgeInsets.fromLTRB(107*fem, 0*fem, 119*fem, 20*fem),
-                    width: double.infinity,
-                    height: 35*fem,
-                    decoration: BoxDecoration (
-                      borderRadius: BorderRadius.circular(40*fem),
+                  height: 50,
+                  width: 90,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(100),
+                    gradient: const LinearGradient(colors: [
+                      Color.fromARGB(255, 236, 91, 23),
+                      Color.fromARGB(255, 243, 163, 15)
+                    ]),
+                  ),
+                  child: MaterialButton(
+                    onPressed: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => const MyHomepage()));
+                    },
+                    child: const Text(
+                      "LOGIN",
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.white,
+                      ),
                     ),
-                    child: Stack(
-                      children: [
-                        Positioned(
-                          // rectangle4VaJ (1:452)
-                          left: 0*fem,
-                          top: 0*fem,
-                          child: Align(
-                            child: SizedBox(
-                              width: 148*fem,
-                              height: 32*fem,
-                              child: Container(
-                                decoration: BoxDecoration (
-                                  borderRadius: BorderRadius.circular(40*fem),
-                                  color: const Color(0xfff2ad27),
-                                  boxShadow: [
-                                    BoxShadow(
-                                      color: const Color(0x3f000000),
-                                      offset: Offset(0*fem, 4*fem),
-                                      blurRadius: 2*fem,
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                        Positioned(
-                          // loginLqp (1:453)
-                          left: 53.5*fem,
-                          top: 5*fem,
-                          child: Align(
-                            child: SizedBox(
-                              width: 41*fem,
-                              height: 23*fem,
-                              child: Text(
-                                'Login',
-                                textAlign: TextAlign.center,
-                                style: SafeGoogleFont (
-                                  'Poppins',
-                                  fontSize: 15*ffem,
-                                  fontWeight: FontWeight.w500,
-                                  height: 1.5*ffem/fem,
-                                  color: const Color(0xff000000),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
+                  ),
+
+                 
+                ),
+                 SizedBox( 
+  height: 10,
                   ),
                   Container(
                     // forgotpassYS6 (1:450)
